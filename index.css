@@ -1,0 +1,214 @@
+.head-nav {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-name ul li {
+  font-size: 22px;
+  list-style-type: none;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.nav-name ul {
+  display: flex;
+}
+
+.nav-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.button1 {
+  height: 50px;
+  width: 150px;
+  font-size: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 20px;
+  color: white;
+  background-color: rgb(241, 160, 8);
+  border: 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 30px;
+  margin: 10px;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-left h1 {
+  font-size: 70px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.hero-left h1 span{
+  color: rgb(4, 74, 155);
+
+}
+
+
+.hcj{
+  font-size: 25px;
+  margin-top: 0;
+  color: rgb(187, 164, 135);
+
+}
+
+.profile img {
+  width: 400px;
+  filter: drop-shadow(5px 3px 10px rgb(10, 168, 108));
+}
+
+.projects{
+  background-color: rgb(225, 231, 231);
+  border-radius: 15px 15px 0 0;
+  margin-top: 80px;
+  margin-left: 0px;
+
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 50px;
+  /* align-items: center; */
+
+}
+
+.projects-left{
+
+  padding: 30px;
+  
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.p-img img{
+  width: 380px;
+  height: 260px;
+
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.projects-left h2{
+
+  font-size: 30px;
+}
+
+.project-card1{
+  display: flex;
+  /* grid-template-columns: 50rem; */
+  flex-direction: row;
+  width: 70rem;
+  /* gap: 7px; */
+  background-color: white;
+  border-radius: 15px;
+}
+
+.butt{
+  width: 80px;
+  height: 35px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgb(219, 219, 211);
+  margin-bottom: 10px;
+}
+.butt-1{
+  width: 150px;
+  height: 35px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgb(219, 219, 211);
+  margin-bottom: 10px;
+}
+
+.card1{
+
+  padding: 10px;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.project-name{
+  font-size: 27px;
+}
+.card1 p{
+  margin: 5px;
+
+}
+
+.project-time img{
+  width: 45px;
+}
+
+.project-time{
+  display: flex;
+}
+.my-name{
+  color: rgb(90, 92, 80);
+  font-size: 17px;
+}
+
+.my-name :nth-child(2){
+  color: rgb(165, 173, 173);
+  font-size: 14px;
+}
+
+.projects-right{
+
+  margin-right: 40px;
+  padding: 25px;
+}
+
+.tdata{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+  border-radius: 13px;
+  width: 300px ;
+}
+
+.tdata img{
+  border-radius: 5px;
+  height: 50px;
+}
+
+.tdata :nth-child(2){
+  font-size: 20px;
+  color: rgb(78, 85, 85);
+}
